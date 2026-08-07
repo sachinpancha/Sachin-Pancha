@@ -246,3 +246,95 @@ margin-bottom:15px;
 }
 
 }
+/* ================= ACTIVITIES ================= */
+
+.activities{
+
+padding:90px 10%;
+
+background:#f7f7f7;
+
+}
+
+.activity-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:30px;
+
+}
+
+.card{
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card h3{
+
+color:#0B3D91;
+
+margin-bottom:15px;
+
+}
+
+
+/* ================= GALLERY ================= */
+
+.gallery{
+
+padding:90px 10%;
+
+background:white;
+
+}
+
+.gallery-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:20px;
+
+}
+
+.gallery-grid img{
+
+width:100%;
+
+height:300px;
+
+object-fit:cover;
+
+border-radius:15px;
+
+transition:.4s;
+
+cursor:pointer;
+
+box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+}
+
+.gallery-grid img:hover{
+
+transform:scale(1.05);
+
+}
