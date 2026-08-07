@@ -483,3 +483,68 @@ box-shadow:0 5px 15px rgba(0,0,0,.3);
 background:#138808;
 
 }
+/* ===================== */
+/* ANIMATION */
+/* ===================== */
+
+.hidden{
+
+opacity:0;
+
+transform:translateY(60px);
+
+transition:1s;
+
+}
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+/* Scroll Bar */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#f2f2f2;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#FF9933;
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#138808;
+
+}
+
+/* Selection */
+
+::selection{
+
+background:#138808;
+
+color:white;
+
+}
